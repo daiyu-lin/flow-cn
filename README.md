@@ -48,7 +48,7 @@ Copy and rename all `.env.local.example`s to `.env.local` and setup the environm
 ### Run the apps
 
 ```bash
-pnpm dev
+pnpm devex
 ```
 
 ## Self-hosting

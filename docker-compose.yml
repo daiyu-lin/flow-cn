@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   reader:
+    platform: linux/amd64
     container_name: reader
     build:
       context: .
