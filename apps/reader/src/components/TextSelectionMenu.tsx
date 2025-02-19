@@ -206,6 +206,15 @@ const TextSelectionMenuRenderer: React.FC<TextSelectionMenuRendererProps> = ({
               }}
             />
             <IconButton
+              title={t('copy')}
+              Icon={MdCopyAll}
+              size={ICON_SIZE}
+              onClick={() => {
+                hide()
+                copy(text)
+              }}
+            />
+            <IconButton
               title={t('search_in_book')}
               Icon={MdSearch}
               size={ICON_SIZE}
